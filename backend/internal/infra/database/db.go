@@ -2,7 +2,7 @@ package database
 
 import (
 	"log"
-	"note/config"
+	"note/internal/config"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
