@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 	"note/internal/auth"
-	"note/internal/database"
+	"note/internal/infra/database"
 	"note/internal/routes"
 	"time"
 )

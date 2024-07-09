@@ -82,7 +82,7 @@ curl -X POST http://localhost:8080/login \
 
 ### Create your first todo:
 ```bash
-curl -X POST http://localhost:8080/todos \
+curl -X POST http://localhost:8080/auth/todos \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer your_jwt_token_here" \
 -d '{
